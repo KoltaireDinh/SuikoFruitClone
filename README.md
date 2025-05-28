@@ -1,4 +1,4 @@
-# SuikoFruitClone
+#STACKING FRUIT - Inspired by Suika Watermelon Game
 -- Steps to run the game:
 1. git clone https://github.com/KoltaireDinh/SuikoFruitClone.git
 2. cd SuikoFruitClone

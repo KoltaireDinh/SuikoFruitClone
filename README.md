@@ -6,3 +6,5 @@
 4. npm run dev
 5. ctrl + left click the localhost link
 6. enjoy the game!
+
+-- Play on web: https://koltairedinh.github.io/suika-fruit-clone/

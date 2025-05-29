@@ -1,19 +1,31 @@
 {
   "name": "suike-game",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "-- Steps to run the game:\r 1. git clone https://github.com/KoltaireDinh/SuikoFruitClone.git\r 2. cd SuikoFruitClone\r 3. npm i\r 4. npm run dev\r 5. ctrl + left click the localhost link\r 6. enjoy the game!",
+  "homepage": "https://github.com/KoltaireDinh/SuikoFruitClone#readme",
+  "bugs": {
+    "url": "https://github.com/KoltaireDinh/SuikoFruitClone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoltaireDinh/SuikoFruitClone.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy:": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "matter-js": "^0.19.0"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "vite": "^4.4.5"
-  },
-  "dependencies": {
-    "matter-js": "^0.19.0"
   }
 }
